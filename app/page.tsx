@@ -1,3 +1,9 @@
 export default function Home() {
-  return <main></main>;
+  return (
+    <main>
+      <a href="/dashboard" className="underline">
+        Dashboard
+      </a>
+    </main>
+  );
 }
